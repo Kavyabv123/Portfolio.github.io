@@ -1021,6 +1021,12 @@ body.resume-opened .deebo_fn__cv .cv__bg2{
 	font-weight: 500;
 	font-size: 24px;
 }
+@media (max-width: 415px){
+ .container{
+   min-width:100% !important;
+   max-width:100% !important;
+ }
+}
 @media screen and (min-width: 768px) {
     .neighbourhood-img img {display:none;}
 }
