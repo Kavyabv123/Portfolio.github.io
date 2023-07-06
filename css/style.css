@@ -1021,21 +1021,31 @@ body.resume-opened .deebo_fn__cv .cv__bg2{
 	font-weight: 500;
 	font-size: 24px;
 }
-@media (max-width: 415px){
- .container{
-   min-width:100% !important;
-   max-width:100% !important;
- }
-}
-@media screen and (min-width: 768px) {
-    .neighbourhood-img img {display:none;}
+@media only screen and (max-width: 768px) {
+  /* CSS code for mobile view */
+
+  /* Adjust the body font size */
+  body {
+    font-size: 14px;
+  }
+
+  /* Make the content full-width */
+  .container {
+    width: 100%;
+  }
+
+  /* Hide or adjust certain elements */
+  .sidebar {
+    display: none;
+  }
+
+  /* Modify the layout for smaller screens */
+  .main-content {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
-@media screen and (max-width: 767px) {
-
-        .neighbourhood-img img {display:block;}
-
-}
 /*------------------------------------------------------------------*/
 /*	08) Section Portfolio
 /*------------------------------------------------------------------*/
